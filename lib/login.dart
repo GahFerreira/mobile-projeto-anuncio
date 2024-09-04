@@ -79,7 +79,7 @@ class _LoginState extends State<Login> {
               children: [
                 Padding(padding: EdgeInsets.only(bottom: 32),
                 child:
-                Image.asset('assets/images/logo.png'),
+                Image.asset('assets/images/image.png'),
                 ),
                 TextField(
                   keyboardType: TextInputType.emailAddress,
@@ -119,7 +119,7 @@ class _LoginState extends State<Login> {
                       setState(() {
                         _cadastrar = valor;
                         if(_cadastrar == true){
-                          _textoBotao = "Cadatrar";
+                          _textoBotao = "Cadastrar";
                         }
                         else{
                           _textoBotao = "Logar";
